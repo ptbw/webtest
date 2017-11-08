@@ -1,0 +1,141 @@
+<html>
+
+<head>
+    <title>You Are Here: The Making of Ipswich by meloona</title>
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/MapkeyIcons.css" rel="stylesheet">
+    <link href="/css/BaseMap.css" rel="stylesheet">
+    <link href="/scripts/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet">
+    <script src="/scripts/jquery-3.2.1.min.js"></script>
+    <script src="/scripts/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div class="background">
+        <div id="map" class="marker-pane">
+
+        </div>
+    </div>
+    </div>
+    <script>
+        (function () {      
+            var coords = false;      
+            $(document).on({                
+                 "contextmenu": function(e) {
+                    console.log("ctx menu button:", e.which); 
+                    // Stop the context menu
+                    e.preventDefault();
+                },
+                "mousedown": function(e) { 
+                    //console.log("normal mouse down:", e.which); 
+                    if( e.which == 3){
+                        var trans = "translate3d(Xpx, Ypx, 0px)";
+                        trans = trans.replace("X", e.pageX);
+                        trans = trans.replace("Y", e.pageY);
+                        var text= " X="+e.pageX + " Y=" + e.pageY;
+                        $("#coords")
+                            .css("transform",trans)
+                            //.attr("title",text)
+                            ;
+
+                        $("#coords").dialog({
+                            autoOpen: false,
+                            resizable: false,
+                            height: "auto",
+                            width: 400,
+                            modal: false,
+                            title: text,
+                            show: {
+                                effect: "blind",
+                                duration: 100
+                            },
+                            hide: {
+                                effect: "explode",
+                                duration: 100
+                            }
+                        });                        
+                        if(coords){
+                            $("#coords").dialog("close");
+                            coords = false;                    
+                        }
+                        else{
+                            $("#coords").dialog("open");                    
+                            coords = true;
+                        }
+                    }
+                },
+            });
+            $.getJSON("/data/ipswich.json", {
+                format: "json"
+            }).done(function (data) {
+                $.each(data.items, function (i, item) {
+                    // Locate the map pin                     
+                    var trans = "translate3d(Xpx, Ypx, 0px)";
+                    trans = trans.replace("X", item.x);
+                    trans = trans.replace("Y", item.y);
+                    // Use map-marker and set the colour
+                    var id = "X-Y";
+                    id = id.replace("X", item.x);
+                    id = id.replace("Y", item.y);
+                    // var span = "<span id='' class='mki mki-marker' style='color: rgb(0, 0, 0);'></span>"; 
+                    // span = span.replace("rgb(0, 0, 0)", item.color);
+                    // span = span.replace("id=''", "id='" + id + "'");                                                                               
+                    // $("<div class='' style='font-size:4em; color: rgb(72, 45, 158); margin-left: -20px; margin-top: -40px; height: 40px; width: 40px; transform: translate3d(0px, 0px, 0px); z-index: 0;'> ")
+                    //     .css("transform", trans)
+                    //     .css("z-index", item.y)
+                    //     .append(span)                        
+                    //     .appendTo("#map");
+
+                    var span = "<span id='' class='fa-stack fa-lg'><i class='fa fa-circle fa-stack-1x' style='top: -6px; color: rgb(255, 255, 255);'></i><i class='fa fa-map-marker fa-stack-2x' style='color: rgb(0, 0, 0);'></i></span>";                    
+                    span = span.replace("rgb(0, 0, 0)", item.color);
+                    span = span.replace("id=''", "id='" + id + "'");
+                    $("<div class='' style='color: rgb(72, 45, 158); margin-left: -20px; margin-top: -40px; height: 40px; width: 40px; transform: translate3d(0px, 0px, 0px); z-index: 0;'> ")
+                        .css("transform", trans)
+                        .css("z-index", item.y)
+                        .append(span)                        
+                        .appendTo("#map");
+
+                    $("#" + id).on("click", function () {
+                        $("#dialog-" + id).dialog("open");
+                    })
+
+                    var div = "<div id='' class='' title='' style='display: block;'>";
+                    div = div.replace("id=''", "id='dialog-" + id + "'");
+                    div = div.replace("title=''", "title='" + item.title + "'");
+
+                    var image = "<p><img style='width: 90%' src='" + item.media + "' ></p>";
+                    if (item.media == "")
+                        image = "<p></p>";
+
+                    var desc = "<p>" + item.description + "</p>";
+                    $(div)
+                        .append(image)
+                        .append(desc)
+                        .appendTo("#dialogs");
+
+                    $("#dialog-" + id).dialog({
+                        autoOpen: false,
+                        resizable: false,
+                        height: "auto",
+                        width: 400,
+                        modal: true,
+                        show: {
+                            effect: "blind",
+                            duration: 100
+                        },
+                        hide: {
+                            effect: "explode",
+                            duration: 100
+                        }
+                    });
+                });
+            });
+        })();
+    </script>
+    <div id='coords' style='font-size:4em; color: rgb(22, 0, 94); margin-left: -20px; margin-top: -40px; height: 40px; width: 40px; transform: translate3d(0px, 0px, 0px); z-index: 0;'>
+        <div title=''><p></p></div>
+    </div>
+    <div id="dialogs"></div>
+</body>
+
+</html>

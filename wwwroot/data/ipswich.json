@@ -1,0 +1,224 @@
+{
+"title": "Data for You Are Here Map",
+"description": "",
+"copywrite": "Ipswich Museum",
+"items": [
+{
+    "title": "Syrian gods at Castle Hill",
+    "x": "527",
+    "y": "210",    
+    "media": "",
+    "description": "",
+    "color": "rgb(72, 45, 158)"
+},
+{
+    "title": "Boss Hall Brooch and grave goods",
+    "x": "431",
+    "y": "459",    
+    "media": "/images/BossHallGraveGoods.jpg",
+    "description": "1600 years ago Boss Hall Road was yet to exist, but for one special Anglo-Saxon lady it was home and it was where she was laid to rest in one of the richest graves ever to be discovered in our town.",
+    "color": "rgb(72, 45, 158)"
+},
+{
+    "title": "Toy phone and farmyard animals",
+    "x": "703",
+    "y": "354",    
+    "media": "/images/ToyPhoneandFarmyardAnimals.jpg",
+    "description": "1600 years ago Boss Hall Road was yet to exist, but for one special Anglo-Saxon lady it was home and it was where she was laid to rest in one of the richest graves ever to be discovered in our town.",
+    "color": "rgb(72, 45, 158)"
+},
+{
+    "title": "Footman's paper bags",
+    "x": "768",
+    "y": "560",    
+    "media": "/images/FootmansPaperBags.jpg",
+    "description": "Did you work here? Which departments do you remember shopping in? Footman Pretty was the great department store of the town, opening in XXXX",
+    "color": "rgb(72, 45, 158)"
+},
+{
+    "title": "Cobbler's tools TBC",
+    "x": "810",
+    "y": "573",    
+    "media": "",
+    "description": "",
+    "color": "rgb(72, 45, 158)"
+},
+{
+    "title": "Watercolours from the roof of Cowells, B.Clark",
+    "x": "789",
+    "y": "568",    
+    "media": "",
+    "description": "",
+    "color": "rgb(60, 119, 212)"
+},
+{
+    "title": "Trade Tokens",
+    "x": "776",
+    "y": "593",    
+    "media": "/images/TradeTokens.jpg",
+    "description": "These trade tokens, largely from the 1600s, tell us a story of ingenuity - of local business people finding ways to adapt and survive at a time when money was limited by the government largely to paper form. The tokens were produced by business owners as a local currency, for people to use when purchasing goods, produce and service in the town. They are all identified as belonging to named individuals who operated in the town and give us an insight into the lives of people of working class. There is a female business owner represented.   Location: Buttermarket, Westgate St, Tavern St, Carr St",
+    "color": "rgb(72, 45, 158)"
+},
+{
+    "title": "Roman coins",
+    "x": "513",
+    "y": "691",    
+    "media": "",
+    "description": "Found in Chantry when the Chantry housing estate was developed, these coins show emperors Constantine and Antonius Pius. There is a range of coins, supporting the idea that people from all over the world have passed through and settled in Ipswich throughout history. This doesn’t necessarily mean a Roman person lived in Chantry (although they might have), but much like when you come home from a holiday abroad with loose change, it does give us a clue as to which countries Britain had relationships with.",
+    "color": "rgb(60, 201, 84)"
+},
+{
+    "title": "The Ipswich Torcs",
+    "x": "332",
+    "y": "868",    
+    "media": "/images/TheIpswichTorcs.jpg",
+    "description": "Imagine going to work one day and stumbling across some ancient gold treasure! Well that’s exactly what happened to Malcolm Tricker when he was preparing the land for new social housing on the Chantry estate in October1968. He found 5 gold Torcs, which are over 2000 years old These are neck rings with twist decoration, and are excellent evidence of pre-Roman craftsmanship. They were made by pouring liquid gold into a wax mould and then melting the wax away at a lower temperature once the gold had gone hard. There is no evidence that these neck rings were buried with their owner when they died, so why would someone bury such a huge amount of gold without finishing all the details?",
+    "color": "rgb(60, 201, 84)"
+},
+{
+    "title": "Working Class Hats",
+    "x": "851",
+    "y": "695",    
+    "media": "/images/WorkingClassHats.jpg",
+    "description": "With Ransomes expanding to premises west of the river, so more locals were employed in the making of farming and industrial machinery, as well as lawnmowers and other engineering projects. The end of shift would see large waves of employees leaving the works and returning to nearby homes.",
+    "color": "rgb(60, 201, 84)"
+},
+{
+    "title": "Blue Coat Boy",
+    "x": "808",
+    "y": "715",    
+    "media": "/images/BlueCoatBoy.jpg",
+    "description": " A \"blue coat boy\" was a general term for a scholar at a charity school.",
+    "color": "rgb(60, 201, 84)"
+},
+{
+    "title": "Rope Maker",
+    "x": "806",
+    "y": "758",    
+    "media": "/images/RopeMaker.jpg",
+    "description": "This is an ordinary object, representing the ordinary work that hard-working people in the town have done for much of its history. Rope makers are used to spin several thin lengths of cord into one thicker, stronger rope. The most obvious rope walking area in the town was Ropewalk in IP3, but there was also one on Wherstead Road, as well as on London Road and Cliff Quay. Ipswich people have been heavily involved in the rope-making trade for hundreds of years, because of its importance in the shipping trade both at sea and on land.",
+    "color": "rgb(60, 201, 84)"
+},
+{
+    "title": "View From Stoke Church",
+    "x": "743",
+    "y": "721",    
+    "media": "",
+    "description": "",
+    "color": "rgb(60, 119, 212)"
+},
+{
+    "title": "Bell Lane Corner, JS Corder",
+    "x": "774",
+    "y": "697",    
+    "media": "",
+    "description": "Ink sketch.",
+    "color": "rgb(60, 119, 212)"
+},
+{
+    "title": "Lower Brook Street/Foundation Street, JS Corder",
+    "x": "807",
+    "y": "654",
+    "media": "",
+    "description": "Ink Sketch depicting the corner post from the Half Moon inn, on display in the Thomas Wolsey exhibition.",
+    "color": "rgb(60, 119, 212)"
+},
+{
+    "title": "Brown’s Yard St Clements, JS Corder",
+    "x": "881",
+    "y": "628",    
+    "media": "",
+    "description": "Ink Sketch",
+    "color": "rgb(60, 119, 212)"
+},
+{
+    "title": "Carved corner post from the Half Moon Inn",
+    "x": "828",
+    "y": "647",    
+    "media": "",
+    "description": "Large carved wooden corner post showing the story of the Fox and Goose fable. the Half Moon Inn, which was referred to as the oldest house in Ipswich (1400s), was demolished in 1960 to make way for industrial development.",
+    "color": "rgb(241, 135, 41)"
+},
+{
+    "title": "Carved wooden spandrels from the Old Customs House.",
+    "x": "846",
+    "y": "652",    
+    "media": "",
+    "description": "This carved oak spandrel is one of several which were once part of the old customs house down at the docks. They were attached to the underside of Sailors Walk, a shaded area under the first floor overhang, depicted in Sailors Walk, Old Customs House by Fredrick Brett Russel. Can you spot the two creatures carved into the ends of the wood? Wikipedia: The Lion and the Unicorn are symbols of the United Kingdom. They are, properly speaking, heraldic supporters appearing in the full royal coat of arms of the United Kingdom. The lion stands for England and the unicorn for Scotland. The combination therefore dates back to the 1603 accession of James I of England who was already James VI of Scotland.",
+    "color": "rgb(241, 135, 41)"
+},
+{
+    "title": "Silk playbill for the Theatre Royal",
+    "x": "839",
+    "y": "602",    
+    "media": "",
+    "description": "The Theatre Royal stood on Tankard Street, now Tacket Street.",
+    "color": "rgb(241, 135, 41)"
+},
+{
+    "title": "Saxon Ipswichware",
+    "x": "842",
+    "y": "557",    
+    "media": "/images/SaxonIpswichware.jpg",
+    "description": "During the late 600s, the first English pottery kilns were developed around Cox Lane as part of a revolutionary new industry. After Roman techniques had been forgotten, the potter’s wheel and kiln-firing were re-introduced, perhaps by Frisian potters. For 200 years, Ipswich was the primary English centre producing such wares. Cooking jars, ornamented wine bottles and water pitchers were supplied throughout East Anglia and central England.\nThe Middle Saxon period (c AD 650-850) saw the emergence of England from two centuries of historical and archaeological uncertainty, and the rise of the first proto-urban centres since Roman times. Ipswich Ware is the only indigenous Middle Saxon pottery which has a widespread distribution outside its production hinterland, and its study, particularly the details of its manufacture, distribution and decoration offer an excellent opportunity for enhancing our understanding of the political, economic and social systems of the period. Ipswich ware is radically different on every level from any preceding or contemporary indigenous Anglo-Saxon pottery and it has long been felt that a clearer understanding of its origins, manufacture, distribution and use would be of immense value to the study of Middle Saxon England.",
+    "color": "rgb(241, 135, 41)"
+},
+{
+    "title": "Ipswich Lyceum programs",
+    "x": "855",
+    "y": "565",    
+    "media": "",
+    "description": "",
+    "color": "rgb(241, 135, 41)"
+},
+{
+    "title": "Terry Burrow’s wedding suit",
+    "x": "845",
+    "y": "509",    
+    "media": "/images/TerryBurrowsWeddingSuit.jpg",
+    "description": "Terry and Erica were married in St Margaret’s church, Terry’s parish church. His wedding suit was made to measure by Coes, on Norwich Road. There is even some confetti left, which was found in the pocket when the suit was given to the museum.",
+    "color": "rgb(241, 135, 41)"
+},
+{
+    "title": "Paul Woollard’s childhood toys",
+    "x": "1420",
+    "y": "455",    
+    "media": "",
+    "description": "These items belonged to Paul Woollard. He lived with his family on Playford Road, Ipswich, and now lives in Australia. His mother still lives in the same house and donated the items to the museum so that a snapshot of childhood in 1950s Ipswich would be captured.",
+    "color": "rgb(241, 135, 41)"
+},
+{
+    "title": "Ransomes Lawnmower",
+    "x": "909",
+    "y": "703",    
+    "media": "",
+    "description": "Ipswich society: It’s not clear why Robert Ransome left Norwich to set up a foundry in Ipswich in 1789 with a borrowed £200 and one worker. Perhaps the ease of bringing raw materials up the Orwell was a big factor. Anyway, Robert Ransome’s development of the chilled plough share gave the business great impetus at the very time that what we call the Industrial Revolution coincided with the Agrarian Revolution. Asa Quaker, Ransome was debarred from local and national government so like others of his faith he used his talents in a field where his trustworthiness and principles of long-term investment paid off. The firm itself took pride in “existing to give young men of Ipswich a job” and they ran the best apprentices scheme in the county according to Mr Weaver. Ransomes moved from St Margaret’s Ditches [i.e. what is now the Old Foundry Road area, where the Society’s Blue Plaque marks the location of the original foundry -Editor] to the waterfront in 1841. From Orwell Works it was easy to export their products all over the world.Taking on different highly able partners over the years, the firm eventually became Ransomes, Sims and Jefferies. [Ransome and Rapier at Waterside Works on the other side of the river also became internationally renowned.] Diversification was a big part of R S & Ys success. They made many types of agricultural machinery, steam rollers, fork-lift and other trucks, trolley buses and in the First World War 700 aeroplanes and in the Second World War field guns. The expansion to. the 140 acre site on Nacton Road after the Second World War must have suggested a continuing success but in the new era of greater specialisation and greater international competition, Ransome’s diversification became a handicap. The company gave up many of its lines and concentrated on grass cutting equipment, which it still does. Grass cutting, we were reminded, is notiust about tending our lawns but has made possible public parks and now golf courses. Taken over by an American company, the name of Ransomes disappeared but has recently re-surfaced - presumably because it is still a selling point.",
+    "color": "rgb(255, 204, 0)"
+},
+{
+    "title": "Handmade Golden Wedding Anniversary tablecloth",
+    "x": "1097",
+    "y": "945",    
+    "media": "",
+    "description": "Clapgate Lane. White cotton tablecloth decorated with drawn thread work and crochet.",
+    "color": "rgb(255, 204, 0)"
+},
+{
+    "title": "Race post and bell",
+    "x": "1154",
+    "y": "873",    
+    "media": "/images/IpswichRaceCourse.jpg",
+    "description": "Ipswich Race Course - The last race meeting was 29 March 1911. <br/><br/>Image - Celardore(Wikipedia)",
+    "color": "rgb(255, 204, 0)"
+},
+{
+    "title": "Holywells High School tie and blazer badge",
+    "x": "1279",
+    "y": "957",    
+    "media": "",
+    "description": "Holywells School no longer exists (It’s now Ipswich academy), but many IP3 residents attended as young people.",
+    "color": "rgb(255, 204, 0)"
+}
+
+]
+}
